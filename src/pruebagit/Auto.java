@@ -46,5 +46,14 @@ public class Auto
 
     public void setTipoMotor(TipoMotor tipoMotor) {
         this.tipoMotor = tipoMotor;
-    }            
+    }
+    
+    public void frenar(){
+        int speed = 100;
+        System.out.println("Frenando");
+        while(speed!=0){
+            speed-=1;
+        }
+        System.out.println("Frenado");    
+    }
 }
