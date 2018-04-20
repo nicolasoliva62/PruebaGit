@@ -56,4 +56,17 @@ public class Auto
         }
         System.out.println("Frenado");    
     }
+        
+    
+    public void acelerar()
+    {
+        int speed=0;
+        System.out.println("Acelerando");
+        while (speed<=60)
+        {
+            System.out.println("Velocidad: " + speed + " Km/h");
+            speed = speed + 10;
+        }
+    }
+    
 }
