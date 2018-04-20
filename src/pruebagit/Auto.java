@@ -46,5 +46,17 @@ public class Auto
 
     public void setTipoMotor(TipoMotor tipoMotor) {
         this.tipoMotor = tipoMotor;
-    }            
+    }      
+    
+    public void acelerar()
+    {
+        int speed=0;
+        System.out.println("Acelerando");
+        while (speed<=60)
+        {
+            System.out.println("Velocidad: " + speed + " Km/h");
+            speed = speed + 10;
+        }
+    }
+    
 }
