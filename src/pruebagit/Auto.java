@@ -16,6 +16,18 @@ public class Auto
     private Modelo modelo;
     private TipoMotor tipoMotor;
 
+    public boolean Doblar(int velocidad){
+        boolean doblar;
+        if (velocidad >= 60){
+           doblar = false;
+        }
+           else {
+           doblar = true;
+        }
+        return doblar;
+        
+         }
+    
     public int getIdAuto() {
         return idAuto;
     }
