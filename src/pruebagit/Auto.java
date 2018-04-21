@@ -80,5 +80,7 @@ public class Auto
             speed = speed + 10;
         }
     }
-    
+    public void esquivar(){
+        
+    }
 }
