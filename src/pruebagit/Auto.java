@@ -27,6 +27,8 @@ public class Auto
         return doblar;
         
          }
+    public void metodo1(){
+    }
     
     public int getIdAuto() {
         return idAuto;
@@ -59,8 +61,7 @@ public class Auto
     public void setTipoMotor(TipoMotor tipoMotor) {
         this.tipoMotor = tipoMotor;
     }
-    
-    public void frenar(){
+        public void frenar(){
         int speed = 100;
         System.out.println("Frenando");
         while(speed!=0){
